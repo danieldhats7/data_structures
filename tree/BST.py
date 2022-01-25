@@ -9,7 +9,7 @@ class Node:
 
 class BST:
     def __init__(self, root=None):
-        self.root = root
+        self.root = Node(root)
 
     def print(self, node=None):
         if node is None:
